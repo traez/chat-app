@@ -1,0 +1,18 @@
+refactor code such functionality is added to <button className="delete">delete</button>
+
+when button is pressed the particular item should be removed from contentArray
+
+code should work similarly to below:
+
+//add event listener for delete buttons
+  let deletes = document.querySelectorAll(".delete");
+  deletes.forEach((element, index) => {
+    element.addEventListener("click", () => {
+      contentArray.splice(index, 1);
+      localStorage.setItem("items", JSON.stringify(contentArray));
+      window.location.reload();
+    });
+  });
+
+
+share only specific code that needs to change

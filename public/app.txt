@@ -1,0 +1,32 @@
+-----------------------------------------------------------Main
+----------------------------------------------H1 Welcome 1fr
+
+----------------------------------------------Header 1fr
+---------------------------------Aside Github
+---------------------------------Button Clear
+
+----------------------------------------------Section Chats Auto
+
+----------------------------------------------Footer 1fr
+---------------------------------Input Textarea
+---------------------------------Button Submit
+
+
+
+/* 
+Write React.js code to fullfil the below user stories or coding logic 
+
+This code defines a chat application that allows users to submit chat entries, edit existing ones, and delete them.
+
+The code starts by selecting elements from the DOM, including a "clear" button, a "section" for displaying chat entries, a "textarea" for user input, and "submit" and "editSubmit" buttons. It also initializes an empty array to hold chat entries.
+
+Next, an event listener is added to the "submit" button to handle the submission of chat entries. When the button is clicked, a new chat entry is created using the user's input from the "textarea" and the current timestamp. The chat entry is then added to the "contentArray" and stored in the browser's local storage. Finally, the "ccMaker" function is called to display the chat entry on the page.
+
+The code also includes a section of code to save and retrieve a user's username from local storage. When the username input is changed, a timer is started to save the input value after 2 seconds.
+
+After that, the "ccMaker" function is defined to create a new chat card for each chat entry in the "contentArray". The chat card includes the chat entry text, the username, timestamp, an "edit" button, and a "delete" button. The chat card is then appended to the "section".
+
+The code adds event listeners to the "clear" button, the "edit" buttons, and the "delete" buttons. The "clear" button removes all chat entries from the page and clears the "contentArray" and local storage. The "edit" buttons allow users to edit an existing chat entry by replacing the chat entry text with the current value of the "textarea". The "delete" buttons allow users to remove an existing chat entry from the "contentArray" and local storage.
+
+Overall, the code defines a simple chat application that allows users to submit, edit, and delete chat entries, and stores the chat entries in the browser's local storage.
+*/

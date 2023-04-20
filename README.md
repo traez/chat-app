@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Florin Pop's App Ideas Collection - Chat App React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to [Chat App React Project of Florin Pop's App Ideas Collection](https://github.com/florinpop17/app-ideas/blob/master/Projects/3-Advanced/Chat-App.md). Florin Pop is a Developer and Content Creator, who loves to build In Public while motivating and encouraging others to follow their dreams. I'm trying to improve my coding skills by building realistic React Projects through his list. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The Challenge/User Stories
+  
+The objective of this project is to build a Real-time chat interface where multiple users can interact with each other by sending messages.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This challenge requires that the developer implementing it follow these constraints:
+-  User is prompted to enter a username when he visits the chat app. The username will be stored in the application.  
+-  User can see an input field where he can type a new message.  
+-  User can edit and delete messages.  
+-  By pressing the enter key or by clicking on the send button the text will be displayed in the chat box alongside his username (e.g. John Doe: Hello World!).  
 
-### `npm test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](/public/images/screenshot-desktop.png)
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Solution URL: [https://github.com/traez/chat-app](https://github.com/traez/chat-app)
+- Live Site URL: [https://traez.github.io/chat-app](https://traez.github.io/chat-app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vanilla JavaScript
+- React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Usual methodology employed: First built project using Vanilla Javascript (necessary files are named "zuri" in the public folder), then did it all over again using React. Reasoning being to better practically understand how React differs from Vanilla JavaScript. 
+- Initially wanted to add 2 additional functionalities to this. Authentication with Auth0, and cloud storage with Firebase. But this project kicked my ass so much so will save the add-ons probably for the next project.
+- Truth remains however that Practice makes perfect. This stuff that's tasking my brain, in time to come when I get more familiar will be concluding same stuff in zero time. And even advanced/harder variations at that!
+- ChatGPT was massive with this one. Interpreting the logic to code was frequently tough, but ChatGPT always came through with the right prompts (Most particularly in the React rebuild).  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Continued development
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Keep going till you get first Tech job. Giving up is never an option!   
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Stackoverflow  
+MDN Web Docs  
+W3schools  
+YouTube  
+Google  
+ChatGPT OpenAI chatbot  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+- Website - [Trae Zeeofor](https://github.com/traez)  
+- Twitter - [@trae_z](https://twitter.com/trae_z) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+[Mo61n](https://codepen.io/Mo61n/pen/rNZQgwV) and [ShreyB](https://codepen.io/ShreyB/pen/BbgpoX) helped with project conceptualization.    
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
